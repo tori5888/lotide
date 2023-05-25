@@ -11,7 +11,7 @@ const countLetters = function(stringToCount) {
     // Otherwise, set its count to 1
   }
 
-  return savedLetters; // Return the object with letter counts
+  return savedLetters; // return the object with letter counts
 };
 
 //repeats until through all letters in the string NOT in alphabet
