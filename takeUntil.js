@@ -44,12 +44,15 @@ const booleans = [false, false, true, false, true, true];
 const results3 = takeUntil(booleans, bool => bool);
 assertArrayEquals(results3, [false, false]);
 
+//test case 1 from module
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results4 = takeUntil(data1, x => x < 0);
 console.log(results4);
 
+//test case 2 from module
 console.log('---');
 
+//test case 3 from module
 const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
 const results5 = takeUntil(data2, x => x === ',');
 console.log(results5);
