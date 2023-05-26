@@ -1,30 +1,3 @@
-// // Function to compare two objects for equality
-// const eqObjects = function(object1, object2) {
-//   // Implementation of eqObjects function (assuming you already have it)
-//   // ...
-// };
-
-// // Function to assert equality of two objects
-// const assertObjectsEqual = function(actual, expected) {
-//   // Compare the objects using eqObjects function
-//   const objectsAreEqual = eqObjects(actual, expected);
-
-//   // Generate the assertion message
-//   const assertionMessage = objectsAreEqual ? '✅ ✅ ✅ Objects are equal' : '❌ ❌ ❌ Objects are not equal';
-
-//   // Print the assertion message
-//   console.log(assertionMessage);
-// };
-
-// // Example usage
-// const obj1 = { a: 1, b: 2 };
-// const obj2 = { b: 2, a: 1 };
-// const obj3 = { a: 1, b: 3 };
-
-// assertObjectsEqual(obj1, obj2); // Output: ✅ ✅ ✅ Objects are equal
-// assertObjectsEqual(obj1, obj3); // Output: ❌ ❌ ❌ Objects are not equal
-
-
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
