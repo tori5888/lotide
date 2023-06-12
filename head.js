@@ -9,4 +9,4 @@ const head = function(array) {
 };
 
 
-module.exports = assertEqual;
+module.exports = head;
