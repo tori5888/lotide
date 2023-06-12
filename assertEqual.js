@@ -1,18 +1,12 @@
-console.assert(1 === 1); // => nothing happens because true
-console.assert(1 === 1.1); // => prints out "Assertion failed" to the terminal
 // FUNCTION IMPLEMENTATION
-const sum = function(a, b) { 
-  return a + b;
-}
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+    return;
+  }
 
-// TEST CODE
-console.assert(sum(1, 2) === 3);
-console.assert(sum(1, 20) === 3); // bad / incorrect assertion, and we see it fail!
+  console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+};
 
-// FUNCTION IMPLEMENTATION
-const sumBuggy = function(a, b) { 
-  return a * b;
-}
 
-// TEST CODE
-console.assert(sumBuggy(1, 2) === 3); // fails, because bug!
+module.exports = assertEqual;
