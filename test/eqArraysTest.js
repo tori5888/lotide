@@ -1,9 +1,5 @@
-
-
 const assertEqual = require('../assertEqual');
-
 const eqArrays = require('../eqArrays');
-
 
 // Example usage:
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // Expected output: "✅ Assertion Passed: true === true"
