@@ -18,3 +18,5 @@ const countLetters = function(stringToCount) {
 
 const result = countLetters("lighthouse in the house"); // Call the countLetters function with the input string
 console.log(result); // Print the resulting object with letter counts
+
+module.exports = countLetters;
