@@ -21,17 +21,4 @@ const findKeyByValue = function(object, value) {
   return undefined; //happy trail -> if no key with the given value is found, return undefined
 };
 
-// Test cases:
-const bestTVShowsByGenre = {
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama: "The Wire"
-};
-
-assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "undefined");
-assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
-assertEqual(findKeyByValue(bestTVShowsByGenre, "Brooklyn Nine-Nine"), "drama");
-
-
 module.exports = findKeyByValue;
