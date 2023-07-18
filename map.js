@@ -38,3 +38,5 @@ console.log(results2);
 // test Case 3: Add an exclamation mark at the end of each word
 const results3 = map(words, word => word + "!");
 console.log(results3);
+
+module.exports = map;
