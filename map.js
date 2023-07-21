@@ -26,17 +26,4 @@ const assertArrayEquals = (arr1, arr2) => {
 };
 
 
-// test Case 1: Transform each word to uppercase
-const results1 = map(words, word => word[0]);
-console.log(results1);
-
-
-// test Case 2: Get the length of each word
-const results2 = map(words, word => word.length);
-console.log(results2);
-
-// test Case 3: Add an exclamation mark at the end of each word
-const results3 = map(words, word => word + "!");
-console.log(results3);
-
 module.exports = map;

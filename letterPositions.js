@@ -13,8 +13,5 @@ const letterPositions = function(sentence) {
   return results; // prints the letter positions to the console
 };
 
-console.log(letterPositions("lighthouse in the house"));
-//prints result of calling letterPositions function with LHL thing as input
-
 
 module.exports = letterPositions;

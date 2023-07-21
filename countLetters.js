@@ -14,9 +14,4 @@ const countLetters = function(stringToCount) {
   return savedLetters; // return the object with letter counts
 };
 
-//repeats until through all letters in the string NOT in alphabet
-
-const result = countLetters("lighthouse in the house"); // Call the countLetters function with the input string
-console.log(result); // Print the resulting object with letter counts
-
 module.exports = countLetters;

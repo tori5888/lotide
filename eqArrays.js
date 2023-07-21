@@ -10,7 +10,7 @@ const eqArrays = function(array1, array2) {
       return false;
     }
   }
-
+  
   // All elements match
   return true;
 };
