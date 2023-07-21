@@ -4,7 +4,6 @@ const tail = require('./tail');
 const middle = require('./middle');
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
-// const assertEqual2 = require('./assertEqual2');
 const countLetters = require('./countLetters');
 const eqObjects = require('./eqObjects');
 const findKey = require('./findKey');
@@ -21,7 +20,6 @@ module.exports = {
   map,
   tail,
   middle,
-  // assertEqual2,
   countLetters,
   findKeyByValue,
   takeUntil,
