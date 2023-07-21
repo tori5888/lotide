@@ -1,4 +1,4 @@
-console.assert(1 === 1); // => nothing happens because true
+// console.assert(1 === 1); // => nothing happens because true
 // console.assert(1 === 1.1); // => prints out "Assertion failed" to the terminal
 // // FUNCTION IMPLEMENTATION
 // const sum = function(a, b) {
